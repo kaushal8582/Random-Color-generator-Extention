@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Random Color Generator",
+    "version": "1.0",
+    "description": "A simple extension to generate random Color",
+    "permissions": ["activeTab", "scripting"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "logo.webp",
+        "48": "logo.webp",
+        "128":"logo.webp"
+      }
+    }
+  }
+  
